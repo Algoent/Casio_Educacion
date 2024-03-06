@@ -73,24 +73,30 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group mt-1">
-                <label for="nombre"><span>*</span>¿Rol o actividad?</label>
+                <label><span>*</span>¿Rol o actividad?</label>
                 <div style="display: block;">
                   <div class="form-check form-check-inline">
-                    <input name="preg2[]" type="checkbox" id="preg2-1" value="Docente">
-                    <label for="preg2-1">Docente</label>
+                    <input type="radio" name="preg2" value="Docente" id="flexRadioDefault11" required>
+                    <label for="flexRadioDefault11">
+                      Docente
+                    </label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg2[]" type="checkbox" id="preg2-2" value="Estudiante">
-                    <label for="preg2-2">Estudiante</label>
+                    <input type="radio" name="preg2" value="Estudiante" id="flexRadioDefault12">
+                    <label for="flexRadioDefault12">
+                      Estudiante
+                    </label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg2[]" type="checkbox" id="preg2-3" value="Madre o padre de familia">
-                    <label for="preg2-3">Madre o padre de familia</label>
+                    <input type="radio" name="preg2" value="Madre o padre de familia" id="flexRadioDefault13">
+                    <label for="flexRadioDefault13">
+                      Madre o padre de familia
+                    </label>
                   </div>
                 </div>
               </div>
               <div class="form-group mt-1">
-                <label for="preg3"><span>*</span>Nivel deducativo</label>
+                <label for="preg3"><span>*</span>Nivel educativo</label>
                 <select type="text" name="preg3" class="form-control" id="preg3" required>
                   <option value="" selected>- Elige una opción -</option>
                   <option value="Primaria">Primaria</option>
@@ -134,70 +140,53 @@
                 </select>
               </div>
               <div class="form-group mt-1">
-                <label for="nombre"><span>*</span>¿Qué modelos utilizas?</label>
+                <label for="nombre"><span>*</span>¿Qué modelo utilizas?</label>
                 <div style="display: block;">
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-1" value="fx-82MS2">
+                    <input type="radio" name="preg7" value="fx-82MS2" id="preg7-1">
                     <label for="preg7-1">fx-82MS2</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-2" value="fx-82LAPLUS2">
+                    <input type="radio" name="preg7" value="fx-82LAPLUS2" id="preg7-2">
                     <label for="preg7-2">fx-82LAPLUS2</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-3" value="fx-82CW">
+                    <input type="radio" name="preg7" value="fx-82CW" id="preg7-3">
                     <label for="preg7-3">fx-82CW</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-4" value="fx-991MS2">
+                    <input type="radio" name="preg7" value="fx-991MS2" id="preg7-4">
                     <label for="preg7-4">fx-991MS2</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-5" value="fx-991LAPLUS2">
+                    <input type="radio" name="preg7" value="fx-991LAPLUS2" id="preg7-5">
                     <label for="preg7-5">fx-991LAPLUS2</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-6" value="fx-991CW">
+                    <input type="radio" name="preg7" value="fx-991CW" id="preg7-6">
                     <label for="preg7-6">fx-991CW</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-7" value="fx-9860GIII">
+                    <input type="radio" name="preg7" value="fx-9860GIII" id="preg7-7">
                     <label for="preg7-7">fx-9860GIII</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-8" value="fx-CG50">
+                    <input type="radio" name="preg7" value="fx-CG50" id="preg7-8">
                     <label for="preg7-8">fx-CG50</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-9" value="fx-CP400">
+                    <input type="radio" name="preg7" value="fx-CP400" id="preg7-9">
                     <label for="preg7-9">fx-CP400</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input name="preg7[]" type="checkbox" id="preg7-10" value="Ninguna">
+                    <input type="radio" name="preg7" value="Ninguna" id="preg7-10">
                     <label for="preg7-10">Ninguna</label>
                   </div>
                 </div>
               </div>
               <div class="form-group mt-1">
-                <label><span>*</span>¿Utilizas la serie ClassWiz?</label>
-                <div style="display: block;">
-                  <div class="form-check form-check-inline">
-                    <input type="radio" name="preg8" value="Si" id="flexRadioDefault3" required>
-                    <label for="flexRadioDefault3">
-                      Si
-                    </label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input type="radio" name="preg8" value="No" id="flexRadioDefault4">
-                    <label for="flexRadioDefault4">
-                      No
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group mt-1">
-                <label for="preg9"><span>*</span>¿En qué área requieres apoyo?</label>
-                <select type="text" name="preg9" class="form-control" id="preg9" required>
+                <label for="preg8"><span>*</span>¿En qué área requieres apoyo?</label>
+                <select type="text" name="preg8" class="form-control" id="preg8" required>
                   <option value="" selected>- Elige una opción -</option>
                   <option value="Matemáticas">Matemáticas</option>
                   <option value="Física">Física</option>
@@ -207,8 +196,8 @@
                 </select>
               </div>
               <div class="form-group mt-1">
-                <label for="preg10"><span>*</span>¿A qué tipo de material te gustaría tener acceso?</label>
-                <select type="text" name="preg10" class="form-control" id="preg10" required>
+                <label for="preg9"><span>*</span>¿A qué tipo de material te gustaría tener acceso?</label>
+                <select type="text" name="preg9" class="form-control" id="preg9" required>
                   <option value="" selected>- Elige una opción -</option>
                   <option value="Cuadernillos de trabajo para estudiantes">Cuadernillos de trabajo para estudiantes</option>
                   <option value="Cuadernillos de trabajo para docentes">Cuadernillos de trabajo para docentes</option>
@@ -224,13 +213,13 @@
                 <label><span>*</span>¿Conoces nuestra plataforma virtual CTM?</label>
                 <div style="display: block;">
                   <div class="form-check form-check-inline">
-                    <input type="radio" name="preg11" value="Si" id="flexRadioDefault5" required>
+                    <input type="radio" name="preg10" value="Sí" id="flexRadioDefault5" required>
                     <label for="flexRadioDefault5">
-                      Si
+                      Sí
                     </label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input type="radio" name="preg11" value="No" id="flexRadioDefault6">
+                    <input type="radio" name="preg10" value="No" id="flexRadioDefault6">
                     <label for="flexRadioDefault6">
                       No
                     </label>
